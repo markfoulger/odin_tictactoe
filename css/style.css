@@ -1,0 +1,82 @@
+body {
+    background-color: #f3f4f6;
+}
+
+h1 {
+    font: bold 32px/64px "Nunito ExtraBold", sans-serif;
+    color: #2B303B;
+    text-align: center;
+}
+
+#reset {
+    font: bold 16px/48px Nunito, sans-serif;
+    padding: 0 32px;
+    display: block;
+    margin: 0 auto;
+    background-color: #2B303B;
+    color:#f3f4f6;
+    border-radius: 8px;
+    border: 0;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    0 12.5px 10px rgba(0, 0, 0, 0.035),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    ;
+    transition: 0.1s;
+}
+
+#reset:hover {
+    background-color:#24262D;
+}
+
+#card {
+    width: 70vw;
+    max-width: 500px;
+    height: 70vw;
+    max-height: 500px;
+    padding: 64px;
+    margin: 32px auto;
+    background-color: #2B303B;
+    border-radius: 32px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    0 12.5px 10px rgba(0, 0, 0, 0.035),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    0 100px 80px rgba(0, 0, 0, 0.07)
+    ;
+}
+
+#board {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #f3f4f6;
+    row-gap: 4px;
+    column-gap: 4px;
+    box-shadow: #2B303B;
+}
+
+.cell {
+    background-color: #2B303B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feather {
+    color: #f3f4f6;
+    height: auto;
+}
+
+.feather-x {
+    width: 80%;
+}
+
+.feather-circle {
+    width: 60%;
+}
