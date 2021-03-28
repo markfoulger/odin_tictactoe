@@ -84,3 +84,9 @@ h1 {
 .won {
     color: #5AC47D;   
 }
+
+#player_turn {
+    font: bold 24px/48px Nunito, sans-serif;
+    color: #2B303B;
+    text-align: center;
+}
